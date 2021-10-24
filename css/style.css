@@ -502,3 +502,12 @@ input.search-input:focus {
   text-decoration-line: underline;
   color: #000000;
 }
+.social-links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social-link {
+  margin-left: 20px;
+  text-decoration: none;
+}
