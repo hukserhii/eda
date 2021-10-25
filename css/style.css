@@ -95,7 +95,7 @@ input.search-input:focus {
   bottom: -8px;
   right: -2px;
 }
-.slider {
+.slide {
   position: relative;
   border-radius: 20px;
   min-height: 400px;
@@ -129,6 +129,22 @@ input.search-input:focus {
   line-height: 23px;
   margin-bottom: 30px;
 }
+.slider-button {
+  cursor: pointer;
+}
+.slider-buttons {
+  position: absolute;
+  right: 46px;
+  bottom: 40px;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-between;
+}
+.swiper {
+  position: relative;
+}
 .button-primery {
   background: #f47322;
   color: #fff;
@@ -149,11 +165,21 @@ input.search-input:focus {
   line-height: 23px;
 }
 .slide-sammer {
-  background-image: url(../img/sammer.png);
+  background-image: url(../img/sammer.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.slider::before {
+.slide-vitamin {
+  background-image: url(../img/vitamin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide-autumn {
+  background-image: url(../img/autumn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide::before {
   content: "";
   position: absolute;
   background: linear-gradient(
