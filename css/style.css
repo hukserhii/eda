@@ -340,8 +340,14 @@ input.search-input:focus {
   color: #000000;
   margin: 0 0 50px;
 }
+.tab-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
 .tab-card {
   max-width: 270px;
+  margin: 15px;
   border-radius: 20px;
   overflow: hidden;
   background-color: #fff;
@@ -438,8 +444,14 @@ input.search-input:focus {
 .edges {
   padding: 100px 0;
 }
+.edges-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
 .edges-card {
   max-width: 270px;
+  margin: 15px;
   overflow: hidden;
   background-color: #fff;
   box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
@@ -460,8 +472,9 @@ input.search-input:focus {
   line-height: 23px;
   text-align: center;
   color: #000000;
-  max-width: 160px;
-  margin: 13px auto;
+  max-width: 190px;
+  margin: auto;
+  padding-bottom: 13px;
 }
 .edge-description {
   font-family: Roboto;
